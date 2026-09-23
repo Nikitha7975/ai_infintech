@@ -21,7 +21,7 @@ services:
       - key: JWT_SECRET_KEY
         generateValue: true
 
-  - type: static_site
+  - type: static
     name: credit-intel-frontend
     rootDir: frontend
     buildCommand: npm ci && npm run build
